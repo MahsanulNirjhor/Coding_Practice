@@ -1,0 +1,6 @@
+*.log
+node_modules/
+
+# DS_store File
+
+.DS_Store
