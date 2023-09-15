@@ -70,7 +70,7 @@ def find_first_occurrence_of_value(array, value):
 
     return left_pointer if found else -1
 ```
-
+```
 
 
 # Two Pointers in Coding
