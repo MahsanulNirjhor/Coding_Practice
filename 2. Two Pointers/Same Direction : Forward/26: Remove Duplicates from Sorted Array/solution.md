@@ -90,16 +90,27 @@ Here's a Python implementation of the approach described above:
 ```python
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
+        # Check if the input array is empty
+        if len(nums) == 0:
+            return 0
+        
+        # Initialize the slow pointer at index 0
         slow = 0
 
-        for fast in range(0,len(nums)):
+        # Start iterating through the array with the fast pointer
+        for fast in range(0, len(nums)):
+            # Compare elements at the slow and fast pointers
             if nums[slow] != nums[fast]:
+                # Elements are different, indicating a unique element
+                # Increment the slow pointer
                 slow = slow + 1
-                nums[slow] = nums[fast]           
-                
+                # Copy the value from the fast pointer to the slow pointer's position
+                nums[slow] = nums[fast]              
 
-        
+        # After processing all elements, the slow pointer points to the last unique element
+        # The number of unique elements is slow + 1
         return slow + 1
+
 
 ```
 let's analyze the time and memory complexity of my code.
