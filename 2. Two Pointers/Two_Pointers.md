@@ -72,23 +72,6 @@ def find_first_occurrence_of_value(array, value):
 ```
 ```
 
-
-# Two Pointers in Coding
-
-## What is two pointers?
-
-Two pointers is a technique in computer programming where two variables are used to traverse an array or other data structure. The pointers are typically initialized to point to the beginning and end of the data structure, and then they are moved in tandem until a desired condition is met.
-
-## Why use two pointers?
-
-Two pointers can be used to solve a variety of problems in computer programming. Some common problems that can be solved using two pointers include:
-
-* Finding the maximum or minimum value in an array
-* Finding the first occurrence of a given value in an array
-* Finding the longest increasing or decreasing subsequence in an array
-* Sorting an array
-* Finding the longest common subsequence of two strings
-
 ## Questions to ask to detect if a coding problem can be solved using two pointers
 
 * Does the problem involve finding the maximum or minimum value in a data structure?
