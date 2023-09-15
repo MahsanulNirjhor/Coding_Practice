@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-You are given an integer array `nums` that is sorted in non-decreasing order. Your task is to remove the duplicates from this array in-place. After removing duplicates, you need to return the number of unique elements in the modified array. Additionally, you need to ensure that the unique elements are placed at the beginning of the array in the same order as they appear in the original array.
+I am given an integer array `nums` that is sorted in non-decreasing order. I task is to remove the duplicates from this array in-place. After removing duplicates, I need to return the number of unique elements in the modified array. Additionally, I need to ensure that the unique elements are placed at the beginning of the array in the same order as they appear in the original array.
 
 ### Example
 
@@ -13,7 +13,7 @@ Modified Array: [1, 2, 3, ...] (The rest of the elements are not important)
 ```
 
 ## Edge Cases
-When solving problems related to removing duplicates from a sorted array, it's important to consider various edge cases to ensure that your solution works correctly and efficiently. Here are some edge cases you should consider, along with examples:
+When solving problems related to removing duplicates from a sorted array, it's important to consider various edge cases to ensure that my solution works correctly and efficiently. Here are some edge cases I should consider, along with examples:
 
 1. **Empty Array**:
    - Input: `[]`
@@ -48,7 +48,7 @@ When solving problems related to removing duplicates from a sorted array, it's i
 7. **Performance Test**:
    - Input: `[1, 2, 3, 4, 5, ..., 100000]` (a large sorted array with no duplicates)
    - Expected Output: `100000`
-   - Explanation: Test the performance of your solution on a large input array with no duplicates.
+   - Explanation: Test the performance of my solution on a large input array with no duplicates.
 
 8. **Single Element Array**:
    - Input: `[42]` (an array with only one element)
@@ -79,7 +79,7 @@ To solve this problem, we can use two pointers - a slow pointer and a fast point
 2. Start iterating through the array with the `fast` pointer.
 3. Compare the elements at the `fast` and `slow` pointers. If they are the same, it means we've found a duplicate, so we move the `fast` pointer to the next element.
 4. If the elements are different, it means we've found a unique element. In this case, we increment the `slow` pointer and copy the value from the `fast` pointer to the `slow` pointer's position. This step effectively removes duplicates by overwriting them with unique elements.
-5. Continue this process until you've processed all elements in the array.
+5. Continue this process until I've processed all elements in the array.
 6. The `slow` pointer will be pointing to the last unique element, so the number of unique elements is `slow + 1`.
 7. Return `slow + 1` as the answer.
 
@@ -102,5 +102,20 @@ class Solution:
         return slow + 1
 
 ```
+let's analyze the time and memory complexity of my code.
 
-This algorithm efficiently removes duplicates in-place while maintaining the relative order of the elements. It returns the count of unique elements and updates the array to contain only the unique elements at the beginning.
+**Time Complexity**:
+The time complexity of my code is O(n), where 'n' is the length of the `nums` array. Here's the breakdown of the time complexity:
+
+- I have a single loop that iterates through the entire `nums` array once, from index 0 to the last index.
+- Inside the loop, I have constant-time operations: comparisons and assignments.
+
+Since I perform a constant amount of work for each element in the array, the overall time complexity is linear, O(n). This is an efficient solution for removing duplicates from a sorted array.
+
+**Memory Complexity**:
+The memory complexity of my code is O(1), which means it uses constant additional memory regardless of the size of the input array. Here's why:
+
+- I use two pointers (`slow` and `fast`), but they occupy a constant amount of memory because I am not creating any new data structures or arrays based on the input size.
+- I perform the removal of duplicates in-place, modifying the original `nums` array without using additional memory.
+
+In summary, my code is both time and memory efficient, with a time complexity of O(n) and a memory complexity of O(1). It efficiently removes duplicates from the sorted array while keeping the relative order of elements intact. Well done! This algorithm efficiently removes duplicates in-place while maintaining the relative order of the elements. It returns the count of unique elements and updates the array to contain only the unique elements at the beginning.
