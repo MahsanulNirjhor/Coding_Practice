@@ -81,8 +81,7 @@ def find_first_occurrence_of_value(array, value):
             left_pointer += 1
 
     return left_pointer if found else -1
-```
-```
+
 
 ## Questions to ask to detect if a coding problem can be solved using two pointers
 
@@ -120,10 +119,6 @@ def find_first_occurrence_of_value(array, value):
 * The two pointers technique can be used to solve a wide variety of problems, but it is not always the best solution. In some cases, other techniques, such as brute force search or dynamic programming, may be more efficient.
 * It is important to be familiar with the different patterns that can be solved using two pointers. This will help you to quickly identify problems that are good candidates for this technique.
 * There are many resources available online and in textbooks that can help you learn more about two pointers. I recommend checking out some of these resources if you are interested in learning more about this technique.
-
-
-Sure, here is a list of the classifications of two pointers, along with the key points to identify them and some examples of problems that can be solved using each classification:
-
 
 **Classification** | **Key points to identify** | **Examples of problems**
 ---|---|---|
