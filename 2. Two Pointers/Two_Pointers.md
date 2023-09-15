@@ -4,12 +4,12 @@
 - [How does two pointers work?](#how-does-two-pointers-work)
 - [Advantages of two pointers](#advantages-of-two-pointers)
 - [Disadvantages of two pointers](#disadvantages-of-two-pointers)
-- [Conclusion](#conclusion)
 - [Code Examples](#code-examples)
 - [Questions to ask to detect if a coding problem can be solved using two pointers](#questions-to-ask-to-detect-if-a-coding-problem-can-be-solved-using-two-pointers)
 - [Patterns that indicate a problem can be solved using two pointers](#patterns-that-indicate-a-problem-can-be-solved-using-two-pointers)
 - [Examples of coding problems that can be solved using two pointers](#examples-of-coding-problems-that-can-be-solved-using-two-pointers)
 - [Examples of coding problems that cannot be solved using two pointers](#examples-of-coding-problems-that-cannot-be-solved-using-two-pointers)
+- [Conclusion](#conclusion)
 - [Additional notes](#additional-notes)
 
 # Two Pointers in Coding
@@ -46,9 +46,6 @@ The two pointers technique works by moving the pointers in tandem until a desire
 * May not be as efficient for problems with large data sets
 * May not be applicable to all problems
 
-## Conclusion
-
-Two pointers is a powerful technique that can be used to solve a variety of problems in computer programming. It is a simple and elegant technique that is easy to understand and implement. However, it is not always the best solution for every problem.
 
 ## Code Examples
 
@@ -143,5 +140,6 @@ Here are some additional notes about the classifications of two pointers:
 * The parallel classification is often used to solve problems related to merging or finding the intersection of two data structures.
 * The sliding window classification is often used to solve problems related to finding the maximum sum of a subarray or the longest substring with no repeated characters.
 
+## Conclusion
 
-I hope this is helpful!
+Two pointers is a powerful technique that can be used to solve a variety of problems in computer programming. It is a simple and elegant technique that is easy to understand and implement. However, it is not always the best solution for every problem.
