@@ -12,7 +12,7 @@ Output: 3
 Modified Array: [1, 2, 3, ...] (The rest of the elements are not important)
 ```
 
-## Edge cases
+## Edge Cases
 When solving problems related to removing duplicates from a sorted array, it's important to consider various edge cases to ensure that your solution works correctly and efficiently. Here are some edge cases you should consider, along with examples:
 
 1. **Empty Array**:
@@ -54,6 +54,22 @@ When solving problems related to removing duplicates from a sorted array, it's i
    - Input: `[42]` (an array with only one element)
    - Expected Output: `1`
    - Explanation: When there's only one element in the array, there are no duplicates, and the result should be 1.
+
+## My Suggestion
+I suggest solve this problem using two pointers (a slow pointer and a fast pointer) because this is a common and efficient approach for solving problems that involve removing duplicates from a sorted array in-place while maintaining the relative order of the elements. Here's how I arrived at this conclusion:
+
+1. **Sorted Array**: The problem statement mentions that the input array `nums` is sorted in non-decreasing order. When dealing with sorted arrays, it's often beneficial to use pointers to compare and manipulate elements efficiently.
+
+2. **Remove Duplicates In-Place**: To remove duplicates in-place means that we should modify the original array without using additional data structures like sets or dictionaries. This suggests that we need to work with the array's elements directly.
+
+3. **Maintain Relative Order**: The problem also specifies that we must maintain the relative order of the elements. This means that if two distinct elements appear consecutively in the input array, they should also appear consecutively in the modified array.
+
+Given these considerations, a common approach is to use two pointers:
+
+- The `slow` pointer points to the current position in the modified array where unique elements are stored.
+- The `fast` pointer iterates through the original array to check for duplicates.
+
+By comparing the elements at the `slow` and `fast` pointers, we can efficiently identify duplicates and copy unique elements to their correct positions while maintaining the relative order. This approach is well-suited for this problem because it avoids the need for additional data structures and takes advantage of the fact that the array is already sorted.
 
 ## Approach
 
