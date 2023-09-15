@@ -12,6 +12,49 @@ Output: 3
 Modified Array: [1, 2, 3, ...] (The rest of the elements are not important)
 ```
 
+## Edge cases
+When solving problems related to removing duplicates from a sorted array, it's important to consider various edge cases to ensure that your solution works correctly and efficiently. Here are some edge cases you should consider, along with examples:
+
+1. **Empty Array**:
+   - Input: `[]`
+   - Expected Output: `0`
+   - Explanation: When the input array is empty, there are no duplicates to remove, and the result should be 0.
+
+2. **Array with No Duplicates**:
+   - Input: `[1, 2, 3, 4, 5]`
+   - Expected Output: `5`
+   - Explanation: When there are no duplicates in the input array, the output should be the length of the original array, and the array itself remains unchanged.
+
+3. **Array with All Duplicates**:
+   - Input: `[1, 1, 1, 1, 1]`
+   - Expected Output: `1`
+   - Explanation: When all elements in the input array are the same, the output should be 1 (the length of the array after removing duplicates), and the array should contain only one unique element.
+
+4. **Array with Some Duplicates**:
+   - Input: `[1, 1, 2, 2, 3, 3, 4, 5]`
+   - Expected Output: `5`
+   - Explanation: The input array has some duplicates, but they should be removed, and the result should contain only the unique elements, with the relative order preserved.
+
+5. **Array with Negative Numbers**:
+   - Input: `[-2, -1, -1, 0, 1, 1, 2, 3]`
+   - Expected Output: `6`
+   - Explanation: The input array can contain negative numbers, and the solution should work correctly for such cases.
+
+6. **Large Input Array**:
+   - Input: `[1, 1, 2, 2, ... 100000]` (an array with a large number of duplicates)
+   - Expected Output: `2`
+   - Explanation: Consider cases where the input array is very large. The solution should still run efficiently and produce the correct result.
+
+7. **Performance Test**:
+   - Input: `[1, 2, 3, 4, 5, ..., 100000]` (a large sorted array with no duplicates)
+   - Expected Output: `100000`
+   - Explanation: Test the performance of your solution on a large input array with no duplicates.
+
+8. **Single Element Array**:
+   - Input: `[42]` (an array with only one element)
+   - Expected Output: `1`
+   - Explanation: When there's only one element in the array, there are no duplicates, and the result should be 1.
+
 ## Approach
 
 To solve this problem, we can use two pointers - a slow pointer and a fast pointer.
