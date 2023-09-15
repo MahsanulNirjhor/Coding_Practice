@@ -9,8 +9,8 @@
 - [Patterns that indicate a problem can be solved using two pointers](#patterns-that-indicate-a-problem-can-be-solved-using-two-pointers)
 - [Examples of coding problems that can be solved using two pointers](#examples-of-coding-problems-that-can-be-solved-using-two-pointers)
 - [Examples of coding problems that cannot be solved using two pointers](#examples-of-coding-problems-that-cannot-be-solved-using-two-pointers)
-- [Conclusion](#conclusion)
 - [Additional notes](#additional-notes)
+- [Conclusion](#conclusion)
 
 # Two Pointers in Coding
 
