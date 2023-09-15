@@ -1,3 +1,7 @@
+# Two Pointers in Coding
+
+Two pointers is a technique in computer programming where two variables are used to traverse an array or other data structure. The pointers are typically initialized to point to the beginning and end of the data structure, and then they are moved in tandem until a desired condition is met.
+
 ## Table of Contents
 - [What is two pointers?](#what-is-two-pointers)
 - [Why use two pointers?](#why-use-two-pointers)
@@ -12,9 +16,6 @@
 - [Additional notes](#additional-notes)
 - [Conclusion](#conclusion)
 
-# Two Pointers in Coding
-
-Two pointers is a technique in computer programming where two variables are used to traverse an array or other data structure. The pointers are typically initialized to point to the beginning and end of the data structure, and then they are moved in tandem until a desired condition is met.
 
 ## What is two pointers?
 
