@@ -1,3 +1,17 @@
+## Table of Contents
+- [What is two pointers?](#what-is-two-pointers)
+- [Why use two pointers?](#why-use-two-pointers)
+- [How does two pointers work?](#how-does-two-pointers-work)
+- [Advantages of two pointers](#advantages-of-two-pointers)
+- [Disadvantages of two pointers](#disadvantages-of-two-pointers)
+- [Conclusion](#conclusion)
+- [Code Examples](#code-examples)
+- [Questions to ask to detect if a coding problem can be solved using two pointers](#questions-to-ask-to-detect-if-a-coding-problem-can-be-solved-using-two-pointers)
+- [Patterns that indicate a problem can be solved using two pointers](#patterns-that-indicate-a-problem-can-be-solved-using-two-pointers)
+- [Examples of coding problems that can be solved using two pointers](#examples-of-coding-problems-that-can-be-solved-using-two-pointers)
+- [Examples of coding problems that cannot be solved using two pointers](#examples-of-coding-problems-that-cannot-be-solved-using-two-pointers)
+- [Additional notes](#additional-notes)
+
 # Two Pointers in Coding
 
 Two pointers is a technique in computer programming where two variables are used to traverse an array or other data structure. The pointers are typically initialized to point to the beginning and end of the data structure, and then they are moved in tandem until a desired condition is met.
