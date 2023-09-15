@@ -110,4 +110,24 @@ def find_first_occurrence_of_value(array, value):
 * There are many resources available online and in textbooks that can help you learn more about two pointers. I recommend checking out some of these resources if you are interested in learning more about this technique.
 
 
+Sure, here is a list of the classifications of two pointers, along with the key points to identify them and some examples of problems that can be solved using each classification:
+
+
+**Classification** | **Key points to identify** | **Examples of problems**
+---|---|---|
+**Collision** | The two pointers start at opposite ends of the data structure and move towards each other. | Find the first and last occurrence of a given value in an array. Find the maximum and minimum values in an array.
+**Forward** | The two pointers start at the same end of the data structure and move in the same direction. | Find the longest increasing subsequence in an array. Find the longest common subsequence of two strings.
+**Parallel** | The two pointers start at the same end of two different data structures and move in the same direction. | Merge two sorted arrays. Find the intersection of two sorted arrays.
+**Sliding window** | The two pointers move in the same direction, but the second pointer is always k elements behind the first pointer. | Find the maximum sum of a subarray of size k. Find the longest substring with no repeated characters.
+
+
+Here are some additional notes about the classifications of two pointers:
+
+
+* The collision classification is the most common type of two pointers problem.
+* The forward classification is often used to solve problems related to finding the longest increasing or decreasing subsequences.
+* The parallel classification is often used to solve problems related to merging or finding the intersection of two data structures.
+* The sliding window classification is often used to solve problems related to finding the maximum sum of a subarray or the longest substring with no repeated characters.
+
+
 I hope this is helpful!
