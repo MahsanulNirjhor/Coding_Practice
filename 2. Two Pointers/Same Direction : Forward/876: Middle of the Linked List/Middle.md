@@ -16,8 +16,8 @@ The middle node is `3`. If the list were:
 
 The middle node is `4`, which is the second middle node in this case.
 
-**Edge Cases:**
-1**.Empty List:** What happens if the input linked list is empty (i.e., head is None)? The code should handle this gracefully and return None or some indication that there is no middle node.
+**Edge Cases:** 
+1. **Empty List:** What happens if the input linked list is empty (i.e., head is None)? The code should handle this gracefully and return None or some indication that there is no middle node.
 
 2.**List with One Node:** If the linked list contains only one node, the code should correctly identify that node as the middle node. In this case, slow and fast should both be pointing to the same node, and that node should be returned.
 
@@ -67,9 +67,11 @@ class Solution:
 - When `fast` reaches the end of the list (fast is `None` or fast.next is `None`), the loop terminates, and `slow` is at the middle node.
 
 **Time Complexity:**
+
 The time complexity of this code is O(N), where N is the number of nodes in the linked list. The while loop iterates through the list once, and both the slow and fast pointers traverse the list at roughly the same pace. Therefore, it's a linear time algorithm.
 
 **Space Complexity:**
+
 The space complexity is O(1), which means it uses constant extra space. This is because it only uses a fixed number of pointers (slow and fast) regardless of the size of the input list. It does not use any additional data structures that grow with the input size.
 
 This algorithm ensures that you return the second middle node when there are two middle nodes, as the `fast` pointer will be ahead of the `slow` pointer in this case.
