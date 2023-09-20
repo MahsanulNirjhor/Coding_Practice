@@ -7,8 +7,8 @@ print(a[0:])
 
 print(a[-1]) # => Top of stack
 
-a.append(6)
+a.append(6) #O(1)
 a.append(7)
 print(a)
 
-print(a.pop()) # => Pop out the top element from the stack
+print(a.pop()) # => Pop out the top element from the stack && O(1)
