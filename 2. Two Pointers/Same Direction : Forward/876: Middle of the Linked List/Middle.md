@@ -17,7 +17,8 @@ The middle node is `3`. If the list were:
 The middle node is `4`, which is the second middle node in this case.
 
 **Edge Cases:** 
-1. **Empty List:** What happens if the input linked list is empty (i.e., head is None)? The code should handle this gracefully and return None or some indication that there is no middle node.
+
+1.**Empty List:** What happens if the input linked list is empty (i.e., head is None)? The code should handle this gracefully and return None or some indication that there is no middle node.
 
 2.**List with One Node:** If the linked list contains only one node, the code should correctly identify that node as the middle node. In this case, slow and fast should both be pointing to the same node, and that node should be returned.
 
