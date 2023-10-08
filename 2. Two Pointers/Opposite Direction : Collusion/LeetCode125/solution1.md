@@ -1,5 +1,3 @@
-Here's an introductory section and a table of contents for your article in Markdown format. You can copy and paste the provided content into your GitHub README or Markdown file:
-
 # Problem Solving: Checking Palindromes in Python
 
 ## Introduction
