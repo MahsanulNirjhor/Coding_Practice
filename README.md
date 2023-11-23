@@ -14,4 +14,4 @@ This folder is dedicated to honing your coding skills and reinforcing your maste
 
 * **Explore different programming languages:** Experiment with different programming languages, frameworks, and libraries to expand your coding repertoire.
 
-Through consistent practice and experimentation within this folder, you will refine your coding skills, broaden your programming knowledge, and become a more versatile and proficient coder.
+Through consistent practice and experimentation within this folder, you will refine your coding skills, broaden your programming knowledge, and become a more versatile and proficient coder. I will more content from time to time.
